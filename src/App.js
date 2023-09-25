@@ -1,9 +1,10 @@
 import './App.css';
 
+
 function App() {
   return (
-    <div className="text-red-500 ">
-    <h1>Hello the server side</h1>
+    <div className="text-red-500 text-3xl bg-yellow-500 h-32 text-center">
+    <h1>URL BOOKMARK  </h1>
     </div>
   );
 }
