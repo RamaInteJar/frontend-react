@@ -6,14 +6,11 @@ const Homepage = () => {
   console.log(bookmark);
   return (
     <div>
-        <h2>Create Urls</h2>
-        <Form action="/create" method="post">
+        <Form action="/create" method="post" className="display-flex">
         <input type="text" name="title" placeholder="title"/>
         <input type="text" name="url" placeholder="url" />
         <input type="submit" value="create bookmark"  />
         </Form>
-
-        <h2>Bookmarks</h2>
       {bookmark.map((url) => {
         return (
           <div key={url._id} className="">
